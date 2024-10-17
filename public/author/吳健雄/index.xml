@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>吳健雄 | 25th anniversary symposium | Artifical Intelligence</title>
+    <link>http://localhost:1314/author/%E5%90%B3%E5%81%A5%E9%9B%84/</link>
+      <atom:link href="http://localhost:1314/author/%E5%90%B3%E5%81%A5%E9%9B%84/index.xml" rel="self" type="application/rss+xml" />
+    <description>吳健雄</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1314/author/%E5%90%B3%E5%81%A5%E9%9B%84/avatar_hu16280712346439646222.jpg</url>
+      <title>吳健雄</title>
+      <link>http://localhost:1314/author/%E5%90%B3%E5%81%A5%E9%9B%84/</link>
+    </image>
+    
+    <item>
+      <title>LLM-Based Assistive Recommendation</title>
+      <link>http://localhost:1314/event/llm/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/event/llm/</guid>
+      <description>&lt;p&gt;Large Language Models (LLMs) have demonstrated impressive capabilities for natural language understanding and generation. What if we power recommender systems with LLMs that can reason through user activities on the platform, and can help plan recommendations accordingly? Equipped with UXR insights that people use nuanced language to describe their long-term interest journeys, and they want more user agency in their recommender platforms, we pinpoint a combination of LLMs and personalization as a key ingredient for the next generation of assistive recommendation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

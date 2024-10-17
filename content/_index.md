@@ -10,22 +10,22 @@ design:
 sections:
   - block: hero-with-stats
     content:
-      title: AI SUMMIT 2024
-      text: "**BUILD THE FUTURE TOGETHER WITH AI**"
-      details: "May 16, 2024. \n\nEasily create your conference website with [Hugo Blox](https://hugoblox.com/templates/)"
+      title: 25th ANNIVERSARY SYMPOSIUM
+      text: "**THRIVING INTO THE EXPONENTIAL AGE**"
+      details: "Nov 15th, 2024. \n\nArtifical Intelligence and Security /// BUDAPEST /// LUPS"
       primary_action:
         text: Get Tickets
         url: https://www.eventbrite.com/
         icon: ticket
       items:
         - name: "Speakers"
-          description: "300+"
+          description: "20+"
         - name: "Attendees"
-          description: "4,000+"
-        - name: "Venue"
-          description: "Moscone Center"
+          description: "200+"
+        - name: "Ludovika University of Public Service"
+          description: "Main Building"
         - name: "Location"
-          description: "San Francisco"
+          description: "Budapest"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -41,10 +41,10 @@ sections:
 #            brightness: 1.0
   - block: countdown
     content:
-      title: "Hurry, Limited Availability"
-      text: "EARLY BIRD PRICING ENDS IN"
-      text_after: "SAVE UP TO $1,000!"
-      date: '2000-01-01 00:00:00'
+      title: "Limited Availability"
+      text: "All proceeds go to charity."
+      text_after: "Do your reservation!"
+      date: '2024-11-15 09:00:00'
     design:
       # Section background color (CSS class)
       css_class: "bg-primary-500"
@@ -55,8 +55,8 @@ sections:
     id: about
     content:
       items:
-        - title: THE YEAR’S CAN’T-MISS EVENT FOR AI COLLABORATION
-          text: AI Summit is coming home to San Francisco. Join us at AI Summit 2024 to explore all the cutting-edge innovation the data cloud has to offer.
+        - title: 25TH ANNIVERSARY SYMPOSIUM FOR AI COLLABORATION
+          text: The 25th Anniversary Symposium is coming home to Budapest. Join us at the 25th Anniversary Symposium 2024 to explore all the cutting-edge innovation AI could offer.
           # Upload image to `assets/media/` and reference the filename here
           image: city-daniel-abadia.jpg
         - title: DISCOVER

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Smith | 25th anniversary symposium | Artifical Intelligence</title>
+    <link>http://localhost:1314/author/john-smith/</link>
+      <atom:link href="http://localhost:1314/author/john-smith/index.xml" rel="self" type="application/rss+xml" />
+    <description>John Smith</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1314/author/john-smith/avatar_hu6721687591480992116.jpg</url>
+      <title>John Smith</title>
+      <link>http://localhost:1314/author/john-smith/</link>
+    </image>
+    
+    <item>
+      <title>Sparsity In Deep Neural Nets</title>
+      <link>http://localhost:1314/event/sparsity/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/event/sparsity/</guid>
+      <description>&lt;p&gt;In this talk, we will introduce a novel sparsity in deep neural nets. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis commodo augue. Nam et lacinia sapien. Maecenas pellentesque erat quis ante congue, at accumsan ipsum ullamcorper. Etiam iaculis euismod ex, vitae interdum ipsum imperdiet non. Vestibulum bibendum egestas rhoncus. Suspendisse ut lacinia ligula, vitae elementum mi. Nullam accumsan nunc sapien. Aliquam turpis diam, suscipit in faucibus ac, consequat mollis orci. Donec sit amet auctor risus.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home | 25th anniversary symposium | Artifical Intelligence</title>
+    <link>http://localhost:1314/</link>
+      <atom:link href="http://localhost:1314/index.xml" rel="self" type="application/rss+xml" />
+    <description>Home</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1314/media/logo.svg</url>
+      <title>Home</title>
+      <link>http://localhost:1314/</link>
+    </image>
+    
+    <item>
+      <title>LLM-Based Assistive Recommendation</title>
+      <link>http://localhost:1314/event/llm/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/event/llm/</guid>
+      <description>&lt;p&gt;Large Language Models (LLMs) have demonstrated impressive capabilities for natural language understanding and generation. What if we power recommender systems with LLMs that can reason through user activities on the platform, and can help plan recommendations accordingly? Equipped with UXR insights that people use nuanced language to describe their long-term interest journeys, and they want more user agency in their recommender platforms, we pinpoint a combination of LLMs and personalization as a key ingredient for the next generation of assistive recommendation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sparsity In Deep Neural Nets</title>
+      <link>http://localhost:1314/event/on-device-llm/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/event/on-device-llm/</guid>
+      <description>&lt;p&gt;Large Language Models (LLMs) have captured the attention of the tech world with their remarkable common-sense reasoning and generalizability. However, their large size and server transfer requirements can make them resource-intensive and slow, which is problematic for use in mobile or wearable devices like smart glasses and smart watches. Moreover, on-device computing could offer a solution to privacy concerns by keeping sensitive data, such as text messages or photos, on the device itself. To tackle these challenges, we’ve developed a more compact language model, ranging from 0.5B to 1.4B parameters. This model is designed to run on-device, providing a competitive performance for conversational grounded tasks, while also managing latency and memory usage effectively.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sparsity In Deep Neural Nets</title>
+      <link>http://localhost:1314/event/sparsity/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/event/sparsity/</guid>
+      <description>&lt;p&gt;In this talk, we will introduce a novel sparsity in deep neural nets. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis commodo augue. Nam et lacinia sapien. Maecenas pellentesque erat quis ante congue, at accumsan ipsum ullamcorper. Etiam iaculis euismod ex, vitae interdum ipsum imperdiet non. Vestibulum bibendum egestas rhoncus. Suspendisse ut lacinia ligula, vitae elementum mi. Nullam accumsan nunc sapien. Aliquam turpis diam, suscipit in faucibus ac, consequat mollis orci. Donec sit amet auctor risus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1314/privacy/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/privacy/</guid>
+      <description>&lt;p&gt;Add your company privacy policy here&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms of Service</title>
+      <link>http://localhost:1314/terms/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/terms/</guid>
+      <description>&lt;p&gt;Add your company legal terms here&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
