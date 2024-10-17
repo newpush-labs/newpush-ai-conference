@@ -36,11 +36,11 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      filename: "np_logo.png"
     button:
       enable: true
       text: "Get Tickets"
-      url: "https://www.eventbrite.com/"
+      url: "https://www.newpush.com/contact/"
     show_search: false
     show_theme_chooser: false
 
