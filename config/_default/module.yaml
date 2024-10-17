@@ -8,10 +8,10 @@ noVendor: "github.com/HugoBlox/hugo-blox-builder/**"
 private: "github.com/HugoBlox/all-access/blox-all-access"
 
 imports:
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
   - path: github.com/HugoBlox/all-access/blox-all-access
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
