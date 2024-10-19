@@ -1,5 +1,8 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
+  command = """
+    git config --global http.extraheader "PRIVATE-TOKEN: $GIT_TOKEN"
+    hugo --gc --minify -b $URL
+  """
   publish = "public"
 
 [build.environment]
@@ -9,12 +12,20 @@
 
 [context.production.environment]
   HUGO_ENV = "production"
+  GIT_USER = "$GIT_USER"
+  GIT_TOKEN = "$GIT_TOKEN"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = """
+    git config --global http.extraheader "PRIVATE-TOKEN: $GIT_TOKEN"
+    hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL
+  """
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = """
+    git config --global http.extraheader "PRIVATE-TOKEN: $GIT_TOKEN"
+    hugo --gc --minify -b $DEPLOY_PRIME_URL
+  """
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
