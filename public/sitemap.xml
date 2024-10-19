@@ -52,9 +52,6 @@
     <loc>http://localhost:1314/author/andras-cser/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1314/author/andrew-varfi/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1314/author/balazs-nagy/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -80,9 +77,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1314/author/dr.-gyorgy-tilesch/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1314/author/dr.-laszlo-kovacs/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1314/author/dr.-levendovszky-janos/</loc>
@@ -115,12 +109,6 @@
     <loc>http://localhost:1314/author/joshua-voglestein/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1314/author/kinga-daradics/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1314/author/kristof-takacs/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1314/author/laszlo-dellei/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -151,7 +139,7 @@
     <loc>http://localhost:1314/author/tari-annamaria/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1314/author/textimage.png/</loc>
+    <loc>http://localhost:1314/author/theodore-s.-boone/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
