@@ -130,7 +130,7 @@ sections:
   - block: logos
     content:
       title: "Sponsors Making This Possible"
-      text: "Thanks to the following sponsors for making this incredible event possible!"
+      text: "Thanks to the following sponsors for making this incredible event possible! Your generous contributions help us support this event, with all proceeds going to charity for children in Ukraine. We couldn't have done it without your support!"
       # Image path relative to assets/media/ folder
       logo_folder: 'sponsors/'
     design:
