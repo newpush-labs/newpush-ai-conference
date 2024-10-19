@@ -138,19 +138,19 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
-  - block: newsletter
-    content:
-      title: "Stay up to date"
-      text: "Be the first to receive conference updates such as added speakers, deadlines, and ticket deals."
-      text_cta: "Sign up to our newsletter 🔥"
-      button:
-        text: "Subscribe"
-      convertkit:
-        form_id: ''
-        msg_subscribed: "Success! Please check your email to confirm your subscription."
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+  # - block: newsletter
+  #   content:
+  #     title: "Stay up to date"
+  #     text: "Be the first to receive conference updates such as added speakers, deadlines, and ticket deals."
+  #     text_cta: "Sign up to our newsletter 🔥"
+  #     button:
+  #       text: "Subscribe"
+  #     convertkit:
+  #       form_id: ''
+  #       msg_subscribed: "Success! Please check your email to confirm your subscription."
+  #   design:
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
 ---
