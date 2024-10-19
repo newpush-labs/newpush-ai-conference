@@ -35,10 +35,10 @@ footer:
     name: Legal
     weight: 3
   - parent: legal
-    name: Privacy
+    name: Privacy Statement
     url: /privacy
     weight: 1
   - parent: legal
-    name: Terms
+    name: Terms and Conditions
     url: /terms
     weight: 2

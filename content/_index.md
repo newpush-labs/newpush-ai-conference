@@ -12,7 +12,7 @@ sections:
     content:
       title: 25th ANNIVERSARY SYMPOSIUM
       text: "**THRIVING INTO THE EXPONENTIAL AGE**"
-      details: "Nov 15th, 2024. \n\nArtifical Intelligence and Security /// BUDAPEST /// LUPS"
+      details: "November 15th, 2024. \n\nArtifical Intelligence and Security /// BUDAPEST /// LUPS"
       primary_action:
         text: Get Tickets
         url: https://www.eventbrite.com/
@@ -55,18 +55,18 @@ sections:
     id: about
     content:
       items:
-        - title: 25TH ANNIVERSARY SYMPOSIUM FOR AI COLLABORATION
-          text: The 25th Anniversary Symposium is coming home to Budapest. Join us at the 25th Anniversary Symposium 2024 to explore all the cutting-edge innovation AI could offer.
+        - title: Inspiring Keynotes and Opening Remarks
+          text: The symposium kicks off with thought-provoking opening remarks from distinguished leaders who set the stage for a day of innovation and exploration. Dr. Deli Gergely, Rektor of Ludovika University of Public Service, along with Amb. Dr. Réka Szemerkényi, former Ambassador of Hungary to the USA, will welcome participants to this prestigious event. Keynotes from influential figures such as Kinga Daradics, CEO of eMAG, and Éva Hegedüs, Chairperson and CEO of Gránit Bank, will highlight global challenges and showcase Hungary's pioneering successes in the AI landscape. Expect a blend of insights on leadership, strategic challenges, and the future of AI technology.
           # Upload image to `assets/media/` and reference the filename here
-          image: city-daniel-abadia.jpg
-        - title: DISCOVER
-          text: Discover the latest in AI, GenAI, application development and much more.
+          image: ludovika.jpg
+        - title: Dynamic Panels - Navigating AIs Future
+          text: Throughout the symposium, engaging panels will address the critical themes shaping the future of AI across various sectors. Industry leaders and experts will discuss how to lead through exponential change, the role of AI in cybersecurity, and the evolving responsibilities of governments, militaries, and civilian organizations in the AI-driven landscape. Sessions will delve into topics such as AI's role in education and the ethical considerations surrounding its development. Moderators like Dr. Réka Szemerkényi, Levente Juhász of Google, and Theodore S. Boone from Corvinus University will guide these discussions, ensuring diverse perspectives are shared.
           # Upload image to `assets/media/` and reference the filename here
           image: conference-headway-F2KRf_QfCqw.jpg
-        - title: HEAR FROM LEADERS REDEFINING THE AI LANDSCAPE
-          text: Hear valuable insights from data and AI experts and business leaders, while discovering the limitless possibilities of data, AI and application collaboration for your organization.
+        - title: Technical Track & Hands-On Workshops
+          text: Designed for technical enthusiasts and professionals, the tech track features in-depth sessions on the science behind AI and its practical applications. Led by experts like Johannes Bernhardt, Balázs Nagy, and László Rácz, these sessions will provide insights into modern cybersecurity frameworks, AI labs, and hands-on tools for defense strategies. Workshops will offer a closer look at building AI-driven solutions, emphasizing practical, real-world implementations that participants can bring back to their organizations. Expect a mix of technical depth and actionable insights tailored for those keen to deepen their knowledge in AI and cybersecurity.
           # Upload image to `assets/media/` and reference the filename here
-          image: round-table-evangeline-shaw-xRlI-L-kvrw.jpg
+          image: abstract.jpg
           button:
             text: Get Tickets
             url: https://www.eventbrite.com/
@@ -83,29 +83,46 @@ sections:
       show_role: true
       show_social: true
       show_interests: false
-  - block: markdown
-    id: agenda
+
+  # - block: markdown
+  #   id: agenda
+  #   content:
+  #     title: Agenda
+  #     text: |
+  #       **DAY 1**
+  #       {style="padding-top: 2rem"}
+  #       {{< table path="schedule.csv" header="true" >}}
+
+  #       **DAY 2**
+  #       {style="padding-top: 2rem"}
+
+  #       {{< table path="schedule.csv" header="true" >}}
+
+  - block: my-events
+    id: events
     content:
       title: Agenda
-      text: |
-        **DAY 1**
-        {style="padding-top: 2rem"}
-        {{< table path="schedule_orig.csv" header="true" >}}
-        
-        **DAY 2**
-        {style="padding-top: 2rem"}
+      room: MAIN AUDITORIUM
+      text: | 
+        {{< events "events" >}}
 
-        {{< table path="schedule_orig.csv" header="true" >}}
-  - block: testimonials
+  - block: my-events
+    id: events
     content:
-      title: ""
-      text: ""
-      items:
-        - name: "Alice Smith"
-          role: "Researcher at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "It has to be the most insightful conference I've ever attended!"
+      title: 
+      room: TECH TRACK AUDITORIUM
+      text: | 
+        {{< events "events2" >}}
+  # - block: testimonials
+  #   content:
+  #     title: ""
+  #     text: ""
+  #     items:
+  #       - name: "Alice Smith"
+  #         role: "Researcher at X"
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: "testimonial-1.jpg"
+  #         text: "It has to be the most insightful conference I've ever attended!"
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections

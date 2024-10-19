@@ -14,7 +14,7 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo conference theme powered by Hugo Blox website builder.'
+    description: '25th anniversary symposium of AI'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -54,7 +54,7 @@ footer:
   design:
     columns: 4
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} NewPush Europe Kft.'
 
 # Localization
 locale:
@@ -66,3 +66,5 @@ extensions:
   convertkit:
     # To use the ConvertKit Newsletter blox, provide your public API Key from your ConvertKit account settings page
     api_key: ""
+
+i_am_a_sponsor: true

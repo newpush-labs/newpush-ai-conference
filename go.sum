@@ -1,3 +1,7 @@
+github.com/HugoBlox/all-access v0.0.0-20240519164730-c04da0219148 h1:EyDtPeUYZCfxDZE1YLds2yZilwUS/Sq3Am5WWp3cEkg=
+github.com/HugoBlox/all-access v0.0.0-20240519164730-c04da0219148/go.mod h1:J+uANL41R6r0tDLIMH0olEdkod4lsK/+Kn/TA0dImIU=
+github.com/HugoBlox/all-access/blox-all-access v0.0.0-20240519164730-c04da0219148 h1:x06AJqpWX/WBtwoY8RNVT1zbfGGU/cNks17NfFPRlJE=
+github.com/HugoBlox/all-access/blox-all-access v0.0.0-20240519164730-c04da0219148/go.mod h1:AifD8GneU4Gu9fWU2WONrTOdu+MpTqJw0TPVVWKb50s=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.1 h1:S1XFRPGzdlmrmqRcE9t0cj9auYFz7+TNCvsuxtD3wQQ=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.1/go.mod h1:Njlsj3S1Z833TdX1nacJZzsiwGGhOq4Nilzo2BH/wQ8=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240505214416-dcdb3d350629 h1:YYu786q+a7BPWO+ogJh4E+ZiEywNEHfb6z3sMWjJcwY=
