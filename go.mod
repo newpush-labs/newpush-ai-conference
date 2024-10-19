@@ -1,8 +1,6 @@
 module github.com/HugoBlox/theme-conference
 
-go 1.22
-
-toolchain go1.23.1
+go 1.23.1
 
 require (
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240505214416-dcdb3d350629
