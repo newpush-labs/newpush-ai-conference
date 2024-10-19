@@ -73,7 +73,7 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: people
+  - block: speakers
     id: speakers
     content:
       title: Speakers
@@ -99,7 +99,7 @@ sections:
   #       {{< table path="schedule.csv" header="true" >}}
 
   - block: my-events
-    id: events
+    id: agenda
     content:
       title: Agenda
       room: MAIN AUDITORIUM
@@ -107,7 +107,7 @@ sections:
         {{< events "events" >}}
 
   - block: my-events
-    id: events
+    id: agenda2
     content:
       title: 
       room: TECH TRACK AUDITORIUM

@@ -7,7 +7,7 @@ organizations:
     url: 'https://www.uni-corvinus.hu/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Theodore S. Boone is an Associate Professor at Corvinus University.
+role: Theodore S. Boone is an Associate Professor at Corvinus University.
 
 interests:
   - Public Speaking
