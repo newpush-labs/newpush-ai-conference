@@ -15,6 +15,9 @@ main:
     weight: 30
   - name: Agenda
     url: /#agenda
+  - name: Contact
+    url: https://www.newpush.com/contact-us/
+    weight: 40
 
 footer:
   - identifier: home
@@ -24,13 +27,19 @@ footer:
     name: Home
     url: /
     weight: 1
+  - parent: home
+    name: Contact
+    url: https://www.newpush.com/contact-us/
   - identifier: tickets
     name: Tickets
     weight: 2
   - parent: tickets
     name: Get Tickets
-    url: https://www.eventbrite.com/
-    weight: 3
+    url: https://www.tixtree.com/e/25th-anniversary-symposium-artificial-intelligence-and-security-thriving-in-the-exponential-age-5e371b274895
+  - parent: tickets
+    name: Download Agenda
+    url: /pdfs/25th_anniversary_symposium_agenda.pdf 
+    weight: 4
   - identifier: legal
     name: Legal
     weight: 3

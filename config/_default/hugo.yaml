@@ -49,6 +49,13 @@ markup:
   _merge: deep
   highlight:
     lineNos: false
+  goldmark:
+    renderHooks:
+      image:
+        enableDefault: true
+      link:
+        enableDefault: true
+
 security:
   _merge: deep
 sitemap:

@@ -15,7 +15,7 @@ sections:
       details: "November 15th, 2024. \n\nArtifical Intelligence and Security /// BUDAPEST /// LUPS"
       primary_action:
         text: Get Tickets
-        url: https://www.eventbrite.com/
+        url: https://www.tixtree.com/e/25th-anniversary-symposium-artificial-intelligence-and-security-thriving-in-the-exponential-age-5e371b274895
         icon: ticket
       items:
         - name: "Speakers"
@@ -69,7 +69,7 @@ sections:
           image: abstract.jpg
           button:
             text: Get Tickets
-            url: https://www.eventbrite.com/
+            url: https://www.tixtree.com/e/25th-anniversary-symposium-artificial-intelligence-and-security-thriving-in-the-exponential-age-5e371b274895
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -105,7 +105,10 @@ sections:
       room: MAIN AUDITORIUM
       text: | 
         {{< events "events" >}}
-
+    design:
+      spacing:
+        # Reduce bottom spacing so the testimonial appears vertically centered between sections
+        padding: ["1rem", 0, 0, 0]
   - block: my-events
     id: agenda2
     content:
@@ -126,7 +129,7 @@ sections:
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
+        padding: ["1rem", 0, 0, 0]
   - block: logos
     content:
       title: "Sponsors Making This Possible"
@@ -138,6 +141,9 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
+      spacing:
+        padding: ["1rem", 0, 0, 0]
+
   # - block: newsletter
   #   content:
   #     title: "Stay up to date"
