@@ -1,0 +1,35 @@
+{{/* My Custom Hugo Blox */}}
+{{/* https://hugoblox.com */}}
+
+{{/* Initialise the block */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{/* Your Hugo variables */}}
+{{/* Access custom front matter content via `$block.content`. */}}
+{{/* E.g. access a `title` field via `$block.content.title`. */}}
+{{/* Pipe the field to `$page.RenderString` to parse it as Markdown. */}}
+{{ $title := $block.content.title | $page.RenderString }}
+{{ $text := $block.content.text | $page.RenderString }}
+{{ $room := $block.content.room | $page.RenderString }}
+{{/* Add your block layout below */}}
+{{/* Styles (in the form of vanilla CSS) can be added to the CSS file. */}}
+{{/* Tailwind styles can optionally be used with the extra step of compiling Tailwind. */}}
+{{/* Access custom front matter design options via `$block.design`. */}}
+{{/* E.g. access a `show_title` field via `$block.design.show_title`. */}}
+
+<div class="flex flex-col items-center mx-auto gap-3 justify-center w-1/2">
+  {{ if $title }}
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    {{ $title }}
+  </div>
+  {{ end }}
+  {{ if $room }}
+    <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+      {{ $room }}
+    </div>
+  {{ end }}
+  {{ with $text }}
+    <p class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose">{{ . }}</p>
+  {{ end }}
+</div>

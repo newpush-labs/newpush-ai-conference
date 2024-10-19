@@ -1,0 +1,34 @@
+[
+    {
+        "time": "11:00-11:40",
+        "event": "The Science behind AI",
+        "speakers": [
+            "Johannes Bernhardt, CEO, Bonn Consulting"
+        ]
+    },
+    {
+        "time": "13:00-13:40",
+        "event": "Cybersecurity Mesh Architecture 3.0 and rethinking cybersecurity education",
+        "speakers": [
+            "Balazs Nagy, CEO, NewPush",
+            "László Rácz, CTO, NewPush"
+        ]
+    },
+    {
+        "time": "14:00-14:40",
+        "event": "Building an AI driven Cybersecurity Lab for NSA certified institutions",
+        "speakers": [
+            "László Rácz, CTO, NewPush",
+            "Kristóf Takács, VP Cloud Hosting, NewPush",
+            "Sandeep Kaur, VP Fintech & Blockchain, Innova Solutions Corp"
+        ]
+    },
+    {
+        "time": "15:00-15:40",
+        "event": "Hands on AI: practical tools and strategies for AI based defense",
+        "speakers": [
+            "Andrew Várfi",
+            "László Rácz"
+        ]
+    }
+]
