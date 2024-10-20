@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 25th anniversary symposium | Artifical Intelligence # Website name
-baseURL: 'https://celebrated-pastelito-a28e9b.netlify.app' # Website URL
+title: 25th Anniversary Symposium | Artifical Intelligence # Website name
+baseURL: 'https://thriving-into-the-exponential-age.newpush.com/' # Website URL
 
 ############################
 ## LANGUAGE

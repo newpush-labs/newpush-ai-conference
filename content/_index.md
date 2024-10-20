@@ -31,14 +31,13 @@ sections:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
       # For full-screen, add `min-h-screen` below
-      css_class: "bg-gradient-to-r from-rose-100 to-teal-100"
-#      background:
-#        color: ""act
-#        image:
-#          # Add your image background to `assets/media/`.
-#          filename: ""
-#          filters:
-#            brightness: 1.0
+      # css_class: "bg-gradient-to-r from-rose-100 to-teal-100"
+      background:
+        image:
+          # Add your image background to `assets/media/`.
+          filename: "newsletter_background.jpg"
+          filters:
+            brightness: 1.0
   - block: countdown
     content:
       title: "Exclusive Opportunity"
