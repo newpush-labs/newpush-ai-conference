@@ -12,7 +12,7 @@ sections:
     content:
       title: 25th ANNIVERSARY SYMPOSIUM
       text: "**THRIVING INTO THE EXPONENTIAL AGE**"
-      details: "November 15th, 2024. \n\nArtifical Intelligence and Security /// BUDAPEST /// LUPS"
+      details: "November 15th, 2024. \n\nArtifical Intelligence and Security <i>::</i> BUDAPEST <i>::</i> LUPS"
       primary_action:
         text: Get Tickets
         url: https://www.tixtree.com/e/25th-anniversary-symposium-artificial-intelligence-and-security-thriving-in-the-exponential-age-5e371b274895
@@ -41,9 +41,9 @@ sections:
 #            brightness: 1.0
   - block: countdown
     content:
-      title: "Limited Availability"
-      text: "All proceeds go to charity."
-      text_after: "Do your reservation!"
+      title: "Exclusive Opportunity"
+      text: "Secure your spot now<br> and support a great cause!"
+      text_after: "[Reserve your place today!](https://www.tixtree.com/e/25th-anniversary-symposium-artificial-intelligence-and-security-thriving-in-the-exponential-age-5e371b274895)"
       date: '2024-11-15 09:00:00'
     design:
       # Section background color (CSS class)

@@ -40,7 +40,7 @@ header:
     button:
       enable: true
       text: "Get Tickets"
-      url: "https://www.newpush.com/contact/"
+      url: "https://www.newpush.com/contact-us/"
     show_search: false
     show_theme_chooser: false
 
