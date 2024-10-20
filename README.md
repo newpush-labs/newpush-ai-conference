@@ -1,33 +1,46 @@
-# [Hugo Conference Theme](https://github.com/HugoBlox/all-access)
+# Project Name
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
+This is the website of the 25th anniversary symposium.
 
-The Hugo **Conference Template** empowers you easily create a beautiful conference website with Markdown-formatted text files. Fully customizable sections for speakers, talks, agenda, and much more!
+## Prerequisites
 
-️**Trusted by 250,000+ creators, teams, and organizations.** Highly customizable via the integrated **no-code, block-based website builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+Before you begin, ensure you have met the following requirements:
+- You have installed [Go](https://golang.org/doc/install) (only if you plan to build Hugo from source).
+- You have a Unix-like operating system (Linux, macOS) or Windows.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+## Installation
 
-[Check out the latest demo](https://theme-landing-page.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
+To install Hugo, follow these steps:
 
-The integrated [**Hugo Blox**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+### Install Hugo on MacOS
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+```sh
+brew install hugo
+```
 
-## Usage Notes
 
-### Newsletter blox
+## Running Hugo Locally
 
-To use the ConvertKit Newsletter blox:
+To run Hugo and serve the website locally for development, follow these steps:
 
-- provide your public API Key from your ConvertKit account settings page in `config/_default/params.yaml` under `extensions`
-- generate an email form in ConvertKit and copy & paste the Form ID from provided HTML into the `form_id` field in `content/_index.md`
+1. Open a terminal and navigate to the project directory.
+
+2. Run the following command to start the Hugo development server:
+
+   ```sh
+   hugo serve -D
+   ```
+
+   The `-D` flag includes draft content.
+
+3. Open your web browser and go to `http://localhost:1313` to view the website.
+
+4. Hugo will automatically reload the page when you make changes to your content files.
+
+5. To stop the server, press `Ctrl+C` in the terminal.
+
+
+
+
+
+

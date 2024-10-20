@@ -33,7 +33,7 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: "bg-gradient-to-r from-rose-100 to-teal-100"
 #      background:
-#        color: ""
+#        color: ""act
 #        image:
 #          # Add your image background to `assets/media/`.
 #          filename: ""
@@ -83,20 +83,6 @@ sections:
       show_role: true
       show_social: true
       show_interests: false
-
-  # - block: markdown
-  #   id: agenda
-  #   content:
-  #     title: Agenda
-  #     text: |
-  #       **DAY 1**
-  #       {style="padding-top: 2rem"}
-  #       {{< table path="schedule.csv" header="true" >}}
-
-  #       **DAY 2**
-  #       {style="padding-top: 2rem"}
-
-  #       {{< table path="schedule.csv" header="true" >}}
 
   - block: my-events
     id: agenda
