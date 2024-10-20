@@ -1,6 +1,8 @@
-# Project Name
+# newpush - 25th anniversary symposium webpage
 
-This is the website of the 25th anniversary symposium.
+This is the website of the 25th anniversary symposium:
+
+https://thriving-into-the-exponential-age.newpush.com/
 
 ## Prerequisites
 
