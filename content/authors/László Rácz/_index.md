@@ -1,7 +1,6 @@
 ---
 title: László Rácz
 avatar: avatar.jpg
-
 # Role/position
 role: CTO, NewPush
 bio: László Rácz is the Chief Technology Officer (CTO) at NewPush.
