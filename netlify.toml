@@ -10,6 +10,12 @@
   HUGO_ENABLEGITINFO = "true"
   GOPRIVATE = "github.com/HugoBlox/all-access/blox-all-access"
 
+[context.production]
+  [[headers]]
+    for = "/*"
+    [headers.values]
+      X-Robots-Tag = ""
+
 [context.production.environment]
   HUGO_ENV = "production"
   GIT_USER = "$GIT_USER"
