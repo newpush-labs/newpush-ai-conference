@@ -9,7 +9,6 @@ Dr. Mária Kőrösi
 Michelle Watson
 Sreedhar Kajeepeta
 Dr. Levendovszky János
-Dr. László Kovács
 Dr. György Tilesch
 Levente Juhász
 Géza Jeszenszky
@@ -33,6 +32,7 @@ Sandeep Kaur'
 # Andrew Várfi
 # Dr. Levente Kovács
 # Kristóf Takács
+# Dr. László Kovács
 # Kinga Daradics
 
 for NAME in $NAMES; do
@@ -47,9 +47,26 @@ for NAME in $NAMES; do
     fi
 
     # use convert to convert image.png to avatar.jpg
-    if [ ! -f "./$NAME/avatar.jpg" -a -f "./$NAME/image.png" ]; then
-        echo "Converting $NAME/image.png to avatar.jpg"
-        convert "./$NAME/image.png" -resize 200x200 "./$NAME/avatar.jpg"
+    # if [ ! -f "./$NAME/avatar.jpg" -a -f "./$NAME/image.png" ]; then
+    if [ ! -f "./$NAME/avatar.jpg" -o true ]; then
+        rm "./$NAME/avatar.jpg"
+        
+        echo "Cropping $NAME/image.png to avatar.jpg"
+        # convert "./$NAME/image.png" -resize 700x500 "./$NAME/avatar.jpg"
+
+        convert "./$NAME/image.png" -gravity Center -crop 2:3 +repage "./$NAME/avatar.jpg"
+
+
+        # if [ ! -d "./$NAME/cropped" ]; then
+        #     rm -rf "./$NAME/cropped"
+        # fi
+
+        # if [ ! -d "./$NAME/cropped" ]; then
+        #     mkdir "./$NAME/cropped"
+        # fi
+        # autocrop -i "./$NAME/" -o "./$NAME/cropped" -w 750 -H 500 -e jpg --facePercent 1
+
+        # cp "./$NAME/cropped/image.jpg" "./$NAME/avatar.jpg"
     fi
 
 

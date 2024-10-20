@@ -57,13 +57,14 @@
             <div class="absolute inset-0 bg-primary-50">
               {{ $image := "" }}
               {{ if $avatar }}
-                {{ $image = $avatar.Fill "280x280 Center webp" }}
+                {{ $image = $avatar }}
               {{ end }}
               {{ if $image }}
-                {{/* $avatar_shape := site.Params.features.avatar.shape | default "circle" */}}
+              
+                {{/*  $avatar_shape := site.Params.features.avatar.shape | default "circle"  */}}
                 <a href="{{$person.Page.RelPermalink}}">
                   <img src="{{ $image.RelPermalink }}" alt="Avatar" width="{{$image.Width}}" height="{{$image.Height}}" loading="lazy"
-                      class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
+                      class="absolute inset-0 h-full w-full object-contain"
                       data-nimg="1"
                       decoding="async"
                       fetchpriority="high"
