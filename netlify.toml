@@ -1,5 +1,7 @@
 [build]
   command = """
+    echo "GIT_TOKEN: $GIT_TOKEN"
+    echo "GOPRIVATE: $GOPRIVATE"
     git config --global url."https://${GIT_TOKEN}@github.com/".insteadOf "https://github.com/"
     hugo --gc --minify -b $URL
   """
