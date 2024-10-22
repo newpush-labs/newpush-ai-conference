@@ -18,10 +18,10 @@
     [headers.values]
       X-Robots-Tag = ""
 
-[context.production.environment]
-  HUGO_ENV = "production"
-  GIT_USER = "$GIT_USER"
-  GIT_TOKEN = "$GIT_TOKEN"
+# [context.production.environment]
+#   HUGO_ENV = "production"
+#   GIT_USER = "$GIT_USER"
+#   GIT_TOKEN = "$GIT_TOKEN"
 
 [context.deploy-preview]
   command = """
