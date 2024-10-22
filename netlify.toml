@@ -1,6 +1,6 @@
 [build]
   command = """
-    git config --global http.extraheader "PRIVATE-TOKEN: $GIT_TOKEN"
+    git config --global url."https://${GIT_TOKEN}@github.com/".insteadOf "https://github.com/"
     hugo --gc --minify -b $URL
   """
   publish = "public"
@@ -8,7 +8,7 @@
 [build.environment]
   HUGO_VERSION = "0.125.2"
   HUGO_ENABLEGITINFO = "true"
-  GOPRIVATE = "github.com/HugoBlox/all-access/blox-all-access"
+  GOPRIVATE = "github.com/HugoBlox/*"
 
 [context.production]
   [[headers]]
@@ -23,13 +23,13 @@
 
 [context.deploy-preview]
   command = """
-    git config --global http.extraheader "PRIVATE-TOKEN: $GIT_TOKEN"
+    git config --global url."https://${GIT_TOKEN}@github.com/".insteadOf "https://github.com/"
     hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL
   """
 
 [context.branch-deploy]
   command = """
-    git config --global http.extraheader "PRIVATE-TOKEN: $GIT_TOKEN"
+    git config --global url."https://${GIT_TOKEN}@github.com/".insteadOf "https://github.com/"
     hugo --gc --minify -b $DEPLOY_PRIME_URL
   """
 
