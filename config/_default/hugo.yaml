@@ -3,8 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 25th Anniversary Symposium | Artifical Intelligence # Website name
+title: BAISS | Budapest AI Security Symposium # Website name
 baseURL: 'https://thriving-into-the-exponential-age.newpush.com/' # Website URL
+
 
 ############################
 ## LANGUAGE
