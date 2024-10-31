@@ -1,114 +1,122 @@
 [
     {
-        "time": "9:00-10:00",
-        "event": "Registration and Breakfast",
+        "time": "9:00-9:30",
+        "event": "Registration and Welcome Coffee, Breakfast",
         "moderator": "",
         "speakers": []
     },
     {
-        "time": "10:00-10:05",
+        "time": "9:30-9:45",
         "event": "Welcome Remarks",
+        "moderator": "Amb. Dr. Réka Szemerkényi, Senior Advisor, Equilibrium Institute",
         "speakers": [
-            "Dr. Deli Gergely., Rektor, Ludovika University of Public Service (host)",
-            "Amb. Dr. Réka Szemerkényi, former Ambassador of Hungary to the USA",
-            "Tari Annamária, DG 2024-2025, D1911, Rotary International"
+            "Dr. Gábor Kemény, Vice Rector of Development, Ludovika University",
+            "Tamás Boros, Director, Equilibrium Institute",
+            "Dr. Péter S. Szabó, President, St Gellért Rotary"
         ]
     },
     {
-        "time": "10:05-10:35",
+        "time": "9:45-10:15",
+        "event": "Opening Keynote",
+        "speakers": [
+            "János Martonyi, Former Minister of Foreign Affairs, Hungary",
+            "Richárd Szabados, Secretary of State, Ministry of Economy, NGM"
+        ]
+    },
+    {
+        "time": "10:15-10:45",
         "event": "Keynote Presentation: Global Challenges, Hungarian Successes in the Age of AI",
         "speakers": [
-            "Kinga Daradics, CEO, eMAG (Video message)",
-            "Éva Hegedüs, Chairperson and CEO, Gránit Bank"
+            "Éva Hegedüs, Chairperson and CEO, Gránit Bank",
+            "Kinga Daradics, CEO, eMAG (Video Message)"
         ]
     },
     {
-        "time": "10:35-11:20",
-        "event": "Panel One: Leading through exponential change",
-        "moderator": "Dr. Réka Szemerkényi",
+        "time": "10:45-11:30",
+        "event": "Panel One: Leading Through Exponential Change",
+        "moderator": "Amb. Dr. Réka Szemerkényi, Senior Advisor, Equilibrium Institute",
         "speakers": [
-            "Kinga Daradics, CEO, eMAG",
             "Éva Hegedüs, Chairperson and CEO, Gránit Bank",
             "Dr. Mária Kőrösi, Distinguished Assistant Professor, Óbuda University",
             "Michelle Watson, Visiting Senior Fellow, Danube Institute"
         ]
     },
     {
-        "time": "11:20-11:35",
-        "event": "Keynote Presentation: Cybersecurity Innovation through AI, CFC / CDC",
+        "time": "11:30-11:45",
+        "event": "Keynote Presentation: Cybersecurity and AI: Stronger Together",
         "speakers": [
-            "Sreedhar Kajeepeta, CTO Innova Corp"
+            "Sreedhar Kajeepeta, CTO, Innova Corp"
         ]
     },
     {
-        "time": "11:35-12:15",
-        "event": "Panel Two: The roles of government, military and civilian organizations in AI-driven cyber warfare",
+        "time": "11:45-12:30",
+        "event": "Panel Two: The Roles of Government, Military, and Civilian Organizations in AI-driven Cyber Warfare",
         "moderator": "Levente Juhász, Government Affairs and Public Policy Manager, CEE, Google",
         "speakers": [
-            "Dr. Levendovszky János, Vice Rector Scientific and International Affairs, BME- Morgan Stanley Financial Innovation Center",
-            "Sreedhar Kajeepeta, CTO, Innova Solutions",
-            "Dr. László Kovács, Brigadier General, Vice Rector, NKE",
-            "Dr. György Tilesch, Global Expert in Artificial Intelligence, Founder and President of the PHI INSTITUTE for Augmented Intelligence, San Francisco"
+            "Sreedhar Kajeepeta, CTO, Innova Corp",
+            "Dr. Csaba Krasznay, Associate Professor, Cybersecurity Center Director, Ludovika University",
+            "Dr. János Levendovszky, Vice Rector, BME",
+            "Dr. György Tilesch, Global Expert in Artificial Intelligence, Founder and President of the PHI INSTITUTE for Augmented Intelligence, San Francisco (online)",
+            "Mihály Zala, Partner, Head of Technology Risk and Cyber Security, EY"
         ]
     },
     {
-        "time": "12:15-13:15",
-        "event": "Luncheon Keynote - Strategic Challenges in the 21st Century of AI-led Cyber",
+        "time": "12:30-13:30",
+        "event": "Lunch",
         "speakers": [
-            "Géza Jeszenszky, Former Minister of Foreign Affairs, Hungary",
+            "Prof. John S. Tsagronis, Professor of Statecraft and National Security",
             "Message of Ferenc Krausz, 2023 Nobel Laureate in Physics"
         ]
     },
     {
-        "time": "13:30-13:45",
+        "time": "13:45-14:00",
         "event": "Keynote presentation: A forgotten detail: building lossless data flows",
         "speakers": [
-            "Balázs Scheidler, Founder, Balabit and Axaflox"
+            "Balázs Scheidler, Founder, Axoflow"
         ]
     },
     {
-        "time": "13:45-14:25",
+        "time": "14:00-14:45",
         "event": "Panel Three: What does proper care and feed of AI look like?",
         "moderator": "Theodore S. Boone, Associate Professor, Corvinus University",
         "speakers": [
-            "Dr. Levente Kovács, President, Óbuda University",
-            "Balázs Scheidler, Founder Balabit and Axoflow",
+            "Prof Dr Peter Galambos, Vice Rector Innovation, Óbuda University",
+            "Balázs Scheidler, Founder of Axoflow and Balabit",
             "Dr. Miklós Verseghi-Nagy, Chancellor, Budapest University of Technology and Economics",
-            "Johannes Bernhardt, CEO, Bonn consulting, German Critical Infrastructure Expert",
-            "Mark Johnson, former Senior Partner, EY, IT Compliance and AI Expert"
+            "Johannes Bernhardt, CEO, Bonn consulting, German Critical Infrastructure Expert"
         ]
     },
     {
-        "time": "14:25-14:55",
-        "event": "Coffee Break"
+        "time": "14:45-15:00",
+        "event": "Coffee Break",
+        "speakers": []
     },
     {
-        "time": "14:55-15:10",
+        "time": "15:00-15:15",
         "event": "ONLINE Keynote Presentation: Learning: the Next Frontier",
         "speakers": [
-            "Joshua Voglestein, Director of the Neuroscience Lab, Johns Hopkins"
+            "Joshua T. Voglestein, Director of the NeuroData Lab, Johns Hopkins University"
         ]
     },
     {
-        "time": "15:10-15:50",
+        "time": "15:15-16:00",
         "event": "Panel Four: What does the next AI innovation look like?",
-        "moderator": "Dr. Gábor Proszéky, HUN-REN, Academy of Sciences",
+        "moderator": "Dr. Gábor Prószéky, HUN-REN, Academy of Sciences",
         "speakers": [
             "Theodore S. Boone, Associate Professor, Corvinus University",
-            "András Cser, Vice President, Principal Analyst, Forrester",
-            "Cyril Gollain, COO, Radiant Logic",
-            "Balázs Marmarosi, CEO, Digital Thinkers"
+            "András Cser, Vice President, Principal Analyst, Forrester (video)",
+            "Cyril Gollain, COO, Radiant Logic"
         ]
     },
     {
-        "time": "15:50-16:05",
+        "time": "16:00-16:15",
         "event": "Keynote Presentation: AI in Higher Education",
         "speakers": [
             "Dr. György Eigner, Dean, Óbuda University"
         ]
     },
     {
-        "time": "16:05-16:35",
+        "time": "16:15-17:00",
         "event": "Panel Five: A New Era of Cybersecurity Education",
         "moderator": "László Dellei, CISO PTE",
         "speakers": [
@@ -118,16 +126,19 @@
         ]
     },
     {
-        "time": "16:35-16:45",
+        "time": "17:00-17:05",
         "event": "Closing Remarks",
         "speakers": [
+            "Péter Kraft, Founder, Kraft Salon and Gallery",
+            "Amb. Dr. Réka Szemerkényi, Senior Advisor, Equilibrium Institute",
             "Balázs Nagy, CEO, NewPush"
         ]
     },
     {
-        "time": "16:45-17:45",
-        "event": "NETWORKING RECEPTION",
-        "speakers": [],
-        "moderator": ""
+        "time": "17:05-18:00",
+        "event": "NETWORKING RECEPTION DINNER SPONSORED BY NEWPUSH",
+        "speakers": [
+        
+        ]
     }
 ]
