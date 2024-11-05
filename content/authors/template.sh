@@ -30,18 +30,19 @@ László Dellei
 László Rácz
 Kristóf Takács
 Réka Szemerkényi
-Sandeep Kaur'
+Sandeep Kaur
+Mihály Zala 
+Dr. Peter S. Szabó
+Mármarosi Balázs
+Dr. Szabó Gergely'
+
+
 # Andrew Várfi
 # Dr. Levente Kovács
 # Kristóf Takács
 # Dr. László Kovács
 # Kinga Daradics
 
-
-# Mihály Zala 
-# Dr. Peter S. Szabó
-# Mármarosi Balázs
-# Dr. Szabó Gergely
 
 
 for NAME in $NAMES; do
