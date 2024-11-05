@@ -18,6 +18,9 @@ main:
   - name: Contact
     url: https://www.newpush.com/contact-us/
     weight: 40
+  - name: Live Stream
+    url: https://www.tixtree.com/e/baiss-2024-live-stream-cac7d14acebc
+    weight: 50
 
 footer:
   - identifier: home
@@ -36,6 +39,9 @@ footer:
   - parent: tickets
     name: Get Tickets
     url: https://www.tixtree.com/e/25th-anniversary-symposium-artificial-intelligence-and-security-thriving-in-the-exponential-age-5e371b274895
+  - parent: tickets
+    name: Register for the live stream
+    url: https://www.tixtree.com/e/baiss-2024-live-stream-cac7d14acebc
   - parent: tickets
     name: Download Agenda
     url: /pdfs/Agenda_BAISS_NKE_ NOV_15_2024.pdf
