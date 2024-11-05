@@ -34,4 +34,8 @@ user_groups:
   - Committee
 ---
 
-Balázs Scheidler
+Co-founder and CEO at Axoflow, previously co-founder and CTO at Balabit (exited to Quest/One Identity in 2018). Experienced executive in the enterprise security space, with an honest, transparent and engaging management style where customer focus, professional excellence and personal commitment are the key traits.
+
+
+Balazs holds a number of Hungarian and International awards, such as Fekete Laszlo díj, Gyurós Tibor díj, Kalmár-díj, Gold Winner for People Shaping Info Security and is considered a subject matter expert in IT security and software engineering practices.
+

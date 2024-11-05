@@ -32,4 +32,4 @@ user_groups:
   - Committee
 ---
 
-Michelle Watson
+Michelle Combs Watson is an International Business Executive and Corporate Cyber Risk Strategist, former Silicon Valley Technology Business Executive, Vice-President for British Telecom Global Managed Services Business Development. She has a degree in Political Science and a master’s degree in National Security and Statecraft. She studied Cyber Risk Management at Harvard and 21st Century Leadership ai Oxford University.  She specializes on topics at the intersection of Technology and Geopolitical Risks focusing on the impact to businesses and nation’s economic and national security. She currently lives in Budapest Hungary and Washington DC and works for the Danube Institute as a Visiting Senior Fellow.

@@ -30,4 +30,4 @@ user_groups:
   - Committee
 ---
 
-![alt text](image.png)
+Dr. György Eigner is the Dean of the John von Neumann Faculty of Informatics at Óbuda University and the professional leader of the University’s Zsámbék Science and Innovation Park project. His research focuses on physiological modeling, artificial intelligence, and cyber-medical systems, and he has co-authored more than 180 scientific publications. He is a Senior Member of the international engineering organization IEEE and has received several international awards. Dr. Eigner applies his expertise in leading significant projects and critically evaluating scientific publications.

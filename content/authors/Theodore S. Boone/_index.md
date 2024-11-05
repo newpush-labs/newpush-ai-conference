@@ -7,7 +7,8 @@ organizations:
     url: 'https://www.uni-corvinus.hu/'
 
 # Short bio (displayed in user profile at end of posts)
-role: Theodore S. Boone is an Associate Professor at Corvinus University.
+role: Of Counsel, Dentons and Corvinus University
+
 
 interests:
   - Public Speaking
@@ -28,4 +29,4 @@ user_groups:
   - Committee
 ---
 
-Theodore S. Boone
+Theodore S. Boone is Of Counsel at Dentons, the world’s largest law firm, and a member of the faculty of Corvinus University. Ted’s legal work focuses on AI related legislation, information technology, corporate risk and compliance and technology driven commercial transactions. 

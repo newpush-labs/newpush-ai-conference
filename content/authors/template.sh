@@ -28,12 +28,21 @@ Dr. Péter Iványi
 Balázs Nagy
 László Dellei
 László Rácz
+Kristóf Takács
+Réka Szemerkényi
 Sandeep Kaur'
 # Andrew Várfi
 # Dr. Levente Kovács
 # Kristóf Takács
 # Dr. László Kovács
 # Kinga Daradics
+
+
+# Mihály Zala 
+# Dr. Peter S. Szabó
+# Mármarosi Balázs
+# Dr. Szabó Gergely
+
 
 for NAME in $NAMES; do
     if [ ! -d "./$NAME" ]; then
@@ -48,13 +57,13 @@ for NAME in $NAMES; do
 
     # use convert to convert image.png to avatar.jpg
     # if [ ! -f "./$NAME/avatar.jpg" -a -f "./$NAME/image.png" ]; then
-    if [ ! -f "./$NAME/avatar.jpg" -o true ]; then
+    if [ ! -f "./$NAME/avatar.jpg" ]; then
         rm "./$NAME/avatar.jpg"
         
         echo "Cropping $NAME/image.png to avatar.jpg"
         # convert "./$NAME/image.png" -resize 700x500 "./$NAME/avatar.jpg"
 
-        convert "./$NAME/image.png" -gravity Center -crop 2:3 +repage "./$NAME/avatar.jpg"
+        magick convert "./$NAME/image.png" -gravity Center -crop 2:3 +repage "./$NAME/avatar.jpg"
 
 
         # if [ ! -d "./$NAME/cropped" ]; then

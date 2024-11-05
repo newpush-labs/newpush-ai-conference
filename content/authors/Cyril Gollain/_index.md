@@ -32,4 +32,4 @@ user_groups:
   - Committee
 ---
 
-Cyril Gollain
+Cyril Gollain has more than 20 years of experience in the field of Identity Security and IAM (Identity and Access Management). In 2010, he founded Brainwave GRC, a French software vendor leader in Identity Analytics, twice named Cool Vendor by Gartner. Brainwave GRC was acquired in 2023 by Radiant Logic Inc. Cyril is currently Radiant Logic's General Manager for EMEA.
