@@ -34,8 +34,8 @@ Sandeep Kaur
 Mihály Zala 
 Dr. Peter S. Szabó
 Mármarosi Balázs
-Dr. Szabó Gergely'
-
+Dr. Szabó Gergely
+Várfi András'
 
 # Andrew Várfi
 # Dr. Levente Kovács
