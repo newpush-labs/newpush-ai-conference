@@ -2,8 +2,7 @@
 
 export IFS=$'\n'
 
-NAMES='Dr. Deli Gergely
-Tari Annamária
+NAMES='
 Éva Hegedüs
 Dr. Mária Kőrösi
 Michelle Watson
@@ -11,18 +10,14 @@ Sreedhar Kajeepeta
 Dr. Levendovszky János
 Dr. György Tilesch
 Levente Juhász
-Géza Jeszenszky
 Ferenc Krausz
 Balázs Scheidler
-Dr. Miklós Verseghi-Nagy
 Johannes Bernhardt
 Mark Johnson
 Theodore S. Boone
-Joshua Voglestein
+Joshua Vogelstein
 András Cser
 Cyril Gollain
-Balázs Marmarosi
-Dr. Gábor Proszéky
 Dr. György Eigner
 Dr. Péter Iványi
 Balázs Nagy

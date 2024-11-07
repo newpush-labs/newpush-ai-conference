@@ -32,4 +32,4 @@ user_groups:
   - Committee
 ---
 
-Géza Jeszenszky
+Géza Jeszenszky.
