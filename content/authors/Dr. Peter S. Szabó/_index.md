@@ -7,7 +7,7 @@ role: Attorney at law
 
 # Organizations/Affiliations
 organizations:
-  - name: Dr. S. Szabó a Bán, S. Szabó, Rausch & Partners 
+  - name: Bán, S. Szabó, Rausch & Partners 
     url:
 
 # Short bio (displayed in user profile at end of posts)

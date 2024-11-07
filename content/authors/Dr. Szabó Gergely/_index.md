@@ -7,7 +7,7 @@ role:
 
 # Organizations/Affiliations
 organizations:
-  - name: 
+  - name: Bán, S. Szabó, Rausch & Partners
     url:
 
 # Short bio (displayed in user profile at end of posts)
