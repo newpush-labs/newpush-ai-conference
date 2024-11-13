@@ -1,23 +1,32 @@
 [
     {
-        "time": "11:00-11:40",
+        "time": "10:45-11:30",
         "event": "The Science behind AI",
         "speakers": [
-            "Johannes Bernhardt, CEO, Bonn Consulting",
+            "Johannes Bernhardt*, CEO, Bonn Consulting",
             "Balázs Nagy, CEO, NewPush"
         ]
     },
     {
-        "time": "13:00-13:40",
+        "time": "11:30-11:45",
+        "event": "Break",
+        "speakers": []
+    },
+    {
+        "time": "11:45-13:00",
         "event": "AI Act and NIS2 Directive: Gaining Competitive Advantage through Compliance",
         "speakers": [
             "Dr. Szabó Gergely, partner Bán, S. Szabó, Rausch and Partners",
-            "László Dellei, CEO, Kerubiel",
-            "Dr Csaba Krasznay, Center for Cybersecurity at LUPS"
+            "László Dellei, CEO, Kerubiel"
         ]
     },
     {
-        "time": "14:00-14:40",
+        "time": "13:00-14:00",
+        "event": "Lunch",
+        "speakers": []
+    },
+    {
+        "time": "14:00-14:45",
         "event": "Building an AI driven Cybersecurity Lab for NSA certified institutions",
         "speakers": [
             "Balazs Nagy, CEO, NewPush",
@@ -27,7 +36,12 @@
         ]
     },
     {
-        "time": "15:00-15:40",
+        "time": "15:00-15:15",
+        "event": "Break",
+        "speakers": []
+    },
+    {
+        "time": "15:15-16:15",
         "event": "Hands on AI: practical tools and strategies for AI based defense",
         "speakers": [
             "Andrew Várfi",
