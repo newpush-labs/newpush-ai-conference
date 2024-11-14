@@ -18,8 +18,8 @@
         "time": "9:45-10:15",
         "event": "Opening Keynote",
         "speakers": [
-            "János Martonyi, Former Minister of Foreign Affairs, Hungary",
-            "Dr. Vajda Viktor, Neumann János Nonprofit Közhasznú Kft."
+            "János Martonyi, Former Minister of Foreign Affairs, Hungary - Human Responsibility and Intelligence in the Era of AI-led Cyber",
+            "Dr. Vajda Viktor, Neumann János Nonprofit Közhasznú Kft. - Cyber Statecraft in Hungary: New Challenges, New Structures"
         ]
     },
     {
@@ -77,7 +77,7 @@
     },
     {
         "time": "14:00-14:15",
-        "event": "Keynote presentation: A forgotten detail: building lossless data flows",
+        "event": "Keynote presentation: Getting data in right can make or break Cybersecurity and AI",
         "speakers": [
             "Balázs Scheidler, Founder, Axoflow"
         ]
