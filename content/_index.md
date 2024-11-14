@@ -12,7 +12,7 @@ sections:
     content:
       title: BAISS Budapest AI Security Symposium
       text: "**THRIVING INTO THE EXPONENTIAL AGE**"
-      details: "November 15th, 2024. \n\n LUDOVIKA UNIVERSITY OF PUBLIC SERVICE\n\n1083 Budapest, Üllői út 121."
+      details: "November 15th, 2024. \n\n <a href='https://ludovika-campus.uni-nke.hu/campusaink/ludovika-campus/orczy-uti-kollegium'><u>LUDOVIKA UNIVERSITY OF PUBLIC SERVICE</u></a>\n\n<a href='https://www.google.com/maps/place/Nemzeti+K%C3%B6zszolg%C3%A1lati+Egyetem+Orczy+%C3%9Ati+Koll%C3%A9gium/@47.4800445,19.0894145,253m/data=!3m1!1e3!4m6!3m5!1s0x4741dce5d67d27e3:0x35bcfe5ad94d3aeb!8m2!3d47.4796629!4d19.0896636!16s%2Fg%2F11cs1w8xq8?entry=ttu&g_ep=EgoyMDI0MTExMS4wIKXMDSoASAFQAw%3D%3D'><u>1089 Budapest, Orczy út 1.</u></a>"
       primary_action:
         text: Get Tickets
         url: https://www.tixtree.com/e/25th-anniversary-symposium-artificial-intelligence-and-security-thriving-in-the-exponential-age-5e371b274895
@@ -25,7 +25,7 @@ sections:
         - name: "Location"
           description: "Ludovika Campus"
         - name: "Address"
-          description: "1083 Budapest,  Üllői út 121."
+          description: "1089 Budapest, Orczy út 1."
     design:
       spacing:
         padding: [0, 0, 0, 0]
