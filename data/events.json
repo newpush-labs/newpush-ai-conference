@@ -26,7 +26,7 @@
         "time": "10:15-10:45",
         "event": "Keynote Presentation: Global Challenges, Hungarian Successes in the Age of AI",
         "speakers": [
-            "Éva Hegedüs, Chairperson and CEO, Gránit Bank",
+            "László Hankiss, Deputy CEO, Gránit Bank",
             "Kinga Daradics, CEO, eMAG (Video Message)"
         ]
     },
@@ -35,7 +35,7 @@
         "event": "Panel One: Leading Through Exponential Change",
         "moderator": "Amb. Dr. Réka Szemerkényi, Senior Advisor, Equilibrium Institute",
         "speakers": [
-            "Éva Hegedüs, Chairperson and CEO, Gránit Bank",
+            "László Hankiss, Deputy CEO, Gránit Bank",
             "Michelle Watson, Visiting Senior Fellow, Danube Institute"
         ]
     },
@@ -87,6 +87,7 @@
         "event": "Panel Three: What does proper care and feed of AI look like?",
         "moderator": "Theodore S. Boone, Associate Professor, Corvinus University",
         "speakers": [
+            "Michelle Watson, Visiting Senior Fellow, Danube Institute",
             "Prof Dr Peter Galambos, Vice Rector Innovation, Óbuda University",
             "Balázs Scheidler, Founder of Axoflow and Balabit",
             "Johannes Bernhardt, CEO, Bonn consulting, German Critical Infrastructure Expert"
