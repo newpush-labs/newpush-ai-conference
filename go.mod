@@ -9,4 +9,4 @@ require (
 
 require github.com/HugoBlox/all-access/blox-all-access v0.0.0-20240519164730-c04da0219148 // indirect
 
-require github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.1 // indirect
+require github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.2.0 // indirect
