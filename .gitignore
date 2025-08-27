@@ -3,3 +3,5 @@ public/*
 resources/*
 content/authors/*/cropped/
 .DS_Store
+.netlify
+node_modules
